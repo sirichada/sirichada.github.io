@@ -11,7 +11,8 @@
     width: 50%;
     padding: 10px;
     border-style: solid;
-    border-color: rgb(242, 79, 68);
+    border-color: black;
+    border-bottom: none;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
     background-color: rgb(242, 79, 68);
@@ -50,4 +51,74 @@
     margin: 0; /* Removes default margins for <p> elements */
     line-height: 1; /* Sets consistent line height */
   }
+
+  .section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  .center-content
+  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
   
+  #contact {
+    height: 120px;
+    width: 50%;
+    padding: 10px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column; /* Stacks children vertically */
+    justify-content: center; /* Centers content vertically */
+    align-items: center; /* Centers content horizontally */
+    gap: 10px; /* Adds spacing between the two text elements */
+  }
+
+  #top-button {
+    display: none;
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    bottom: 50px;
+    right: 50px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: rgb(242, 79, 68);
+    color: white;
+    cursor: pointer;
+    border-radius: 50%;
+  }
+
+  #top-button:hover {
+    border-style: solid;
+    border-color:rgb(242, 79, 68);
+    background-color: white;
+    border-width: 3px;
+  }
+
+  #top-button:hover .arrow {
+    border-color: rgb(242, 79, 68);
+  }
+
+  .arrow {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+  }
+
+  .up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+  }
