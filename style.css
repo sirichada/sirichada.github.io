@@ -32,20 +32,22 @@
     height: 120px;
     width: 50%;
     padding: 10px;
+    padding-top: 20px;
     border-style: solid;
     border-color: black;
     border-bottom-right-radius: 15px;
     border-bottom-left-radius: 15px;
     color: black;
     text-align: center;
-    display: flex; /* Allows vertical centering */
-    justify-content: center; /* Centers placeholder vertically */
-    align-items: center; /* Centers placeholder horizontally */
+    display: flex;
+    flex-direction: column; /* Stacks children vertically */
+    justify-content: center; /* Centers content vertically */
+    align-items: center; /* Centers content horizontally */
+    gap: 10px; /* Adds spacing between the two text elements */
   }
   
   .cover-bottom p {
     margin: 0; /* Removes default margins for <p> elements */
-    font-family: 'Srisakdi', cursive; /* Use correct font-family */
-    font-size: xxx-large;
+    line-height: 1; /* Sets consistent line height */
   }
   
