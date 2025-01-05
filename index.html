@@ -22,7 +22,7 @@
 <body>
 
   <!-- Navigation bar -->
-  <header>
+  <header id="header">
     <a class="logo" href="/"><img src="icon.png" alt="logo" style="width: 100px;"> </a>
     <nav>
         <ul class="nav__links">
@@ -35,7 +35,21 @@
   </header>
 
   <!-- Navigation bar scroll animation -->
-   <script> </script>
+  <script>
+    let lastScrollY = window.scrollY;
+  
+    window.addEventListener("scroll", () => {
+      const header = document.querySelector("header");
+      if (window.scrollY < lastScrollY) {
+        // Scrolling up
+        header.classList.remove("show");
+      } else {
+        // Scrolling down
+        header.classList.add("show");
+      }
+      lastScrollY = window.scrollY;
+    });
+  </script>
 
   <!-- Cover -->
   <div class="cover">
