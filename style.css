@@ -5,6 +5,7 @@ header
   align-items: center;
   padding: 20px 10%;
   background-color: #24252a;
+  border-radius: 15px;
 }
 
 .logo {
@@ -14,8 +15,7 @@ header
 .nav__links a,
 .cta,
 .overlay__content a {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
+  font-weight: bold;
   color: #edf0f1;
   text-decoration: none;
 }
@@ -71,15 +71,15 @@ header
     background-color: rgb(242, 79, 68);
     color: white;
     text-align: center;
-    display: flex; /* Allows flexbox alignment inside the container */
-    flex-direction: column; /* Stacks the text vertically */
-    justify-content: center; /* Centers text vertically */
-    gap: 5px; /* Adds consistent spacing between lines */
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    gap: 5px; 
   }
   
   .cover-top p {
-    margin: 0; /* Removes default margins for <p> elements */
-    line-height: 1; /* Sets consistent line height */
+    margin: 0; 
+    line-height: 1; 
   }
   
   .cover-bottom {
@@ -94,15 +94,15 @@ header
     color: black;
     text-align: center;
     display: flex;
-    flex-direction: column; /* Stacks children vertically */
-    justify-content: center; /* Centers content vertically */
-    align-items: center; /* Centers content horizontally */
-    gap: 10px; /* Adds spacing between the two text elements */
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 10px; 
   }
   
   .cover-bottom p {
-    margin: 0; /* Removes default margins for <p> elements */
-    line-height: 1; /* Sets consistent line height */
+    margin: 0; 
+    line-height: 1; 
   }
 
   .section {
@@ -169,9 +169,9 @@ header
     display: flex;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
-    flex-direction: column; /* Stacks children vertically */
-    justify-content: center; /* Centers content vertically */
-    align-items: center; /* Centers content horizontally */
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
   }
 
   .fa {
@@ -194,7 +194,7 @@ header
   color: rgb(242, 79, 68);
 }
 
-.column-horizontal {
+.column-row {
   display: flex;
   flex-direction: row;
   justify-content: center;
