@@ -45,6 +45,7 @@ header.show {
 
 .nav__links li {
   padding: 0px 20px;
+  transition: transform 0.3s ease-in-out;
 }
 
 .nav__links li a {
@@ -61,7 +62,7 @@ header.show {
   border: none;
   border-radius: 50px;
   cursor: pointer;
-  transition: background 0.3s ease 0s;
+  transition: color 0.3s ease;
 }
 
 .cta:hover {
@@ -128,7 +129,7 @@ header.show {
   section {
     background: rgb(250, 249, 246);
     color: black;
-    padding: 20px;
+    padding: 30px;
   }
 
   #top-button {
@@ -212,10 +213,21 @@ header.show {
   color: rgb(242, 79, 68);
 }
 
-.column-row {
+.row {
   display: flex;
   flex-direction: row;
-  justify-content: center;
   align-items: center;
   gap: 10px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 50%;
+}
+
+#about .row {
+  gap: 100px;
 }
