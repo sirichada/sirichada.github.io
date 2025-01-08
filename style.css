@@ -10,6 +10,7 @@ body {
   padding: 0;
 }
 
+/* header (navbar) style */
 header
 {
   position: fixed;
@@ -76,6 +77,7 @@ header.show {
   color: var(--red);
 }
 
+/* cover ("hello my name is") style */
 .cover {
     display: flex;
     background: rgb(250, 249, 246);
@@ -132,6 +134,7 @@ header.show {
     line-height: 1; 
   }
 
+  /* default section style (about, experiences, etc) */
   section {
     background: rgb(250, 249, 246);
     color: black;
@@ -157,6 +160,7 @@ header.show {
     margin: 0;
   }
 
+  /* back to top button when scrolling */
   #top-button {
     display: none;
     position: fixed;
@@ -198,6 +202,7 @@ header.show {
     -webkit-transform: rotate(-135deg);
   }
 
+  /* footer (contact) style */
   footer {
     background: var(--red);
     color: white;
@@ -238,6 +243,7 @@ header.show {
   color: var(--red);
 }
 
+/* general layout style */
 .row {
   display: flex;
   flex-direction: row;
