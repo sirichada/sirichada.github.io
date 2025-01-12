@@ -299,3 +299,28 @@ header.show {
   opacity: 1;
   right: 0;
 }
+
+.gallery
+{
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  border-radius: 15px;
+  width: 30%;
+  min-height: 200px;
+}
+
+.gallery h3
+{
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.gallery p
+{
+  margin: 0;
+  padding: 10px;
+  padding-bottom: 20px;
+}
