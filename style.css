@@ -25,6 +25,7 @@ header
   transition: transform 0.3s ease-in-out;
   transform: translateY(-100%);
   box-sizing: border-box;
+  z-index: 10000;
 }
 
 header.show {
@@ -264,7 +265,7 @@ header.show {
 .button {
   display: inline-block;
   border-radius: 50px;
-  background-color: #f4511e;
+  background-color: var(--orange);
   border: none;
   color: #FFFFFF;
   text-align: center;
@@ -307,20 +308,28 @@ header.show {
   border-width: 1px;
   border-radius: 15px;
   width: 30%;
-  min-height: 200px;
+  min-height: 300px;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
 }
 
 .gallery h3
 {
   margin: 0;
   padding: 10px;
-  text-align: center;
   padding-top: 20px;
 }
 
 .gallery p
 {
+  text-align: left;
   margin: 0;
-  padding: 10px;
+  padding: 15px;
   padding-bottom: 20px;
+}
+
+.gallery .button
+{
+  margin: 0;
 }
