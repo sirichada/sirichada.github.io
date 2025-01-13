@@ -150,6 +150,7 @@ header.show {
 
   section h2 {
     margin: 0;
+    font-size: 20px;
     color: var(--orange);
   }
 
@@ -319,6 +320,7 @@ header.show {
   margin: 0;
   padding: 10px;
   padding-top: 20px;
+  font-size: medium;
 }
 
 .gallery p
@@ -327,9 +329,13 @@ header.show {
   margin: 0;
   padding: 15px;
   padding-bottom: 20px;
+  font-size: 15px;
 }
 
 .gallery .button
 {
   margin: 0;
+  position: relative;
+  margin-top: 80px;
+  bottom: 0;
 }
