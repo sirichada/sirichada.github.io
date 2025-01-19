@@ -336,6 +336,18 @@ header.show {
 {
   margin: 0;
   position: relative;
-  margin-top: 80px;
   bottom: 0;
+  margin-bottom: 20px;
+}
+
+.gallery img
+{
+  max-height:100%; 
+  max-width:100%;
+  display: inline-block;
+  object-fit: contain;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  padding-top: 0px;
+  margin-top: 0px;
 }
