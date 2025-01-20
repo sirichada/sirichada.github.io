@@ -275,6 +275,7 @@ header.show {
   cursor: pointer;
   margin: 15px;
   padding: 10px;
+  font-size: 13px;
 }
 
 .button span {
@@ -350,4 +351,24 @@ header.show {
   border-top: 1px solid black;
   padding-top: 0px;
   margin-top: 0px;
+}
+
+#progressbar {
+  background-color: black;
+  border-radius: 13px;
+  /* (height of inner div) / 2 + padding */
+  padding: 2px;
+  display:inline-block;
+  width: 50%;
+  height: 9px;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+#progressbar>div {
+  background-color: white;
+  width: 90%;
+  height: 8px;
+  border-radius: 10px;
 }
