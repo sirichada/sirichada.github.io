@@ -27,8 +27,6 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi! I'm Sirichada (but you can call me Siri or Tingting for short) and I'm a junior at CMKL University, majoring in AI and Computer Engineering. I'm interested in researching how we can truly understand or explain the inner workings of AI, while ensuring the safety or ethics of these very same systems.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+When I'm not reading, I enjoy writing and keeping myself motivated through finding new cafes for the ultimate matcha latte to drink while researching.  I'm always looking for new opportunities to learn and grow, so feel free to reach out!
