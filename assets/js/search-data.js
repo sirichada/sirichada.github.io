@@ -16,31 +16,31 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "projects-real-time-data-streaming-for-so-101-robotic-arms",
-          title: 'real-time data streaming for SO-101 robotic arms',
-          description: "with background image",
+        },{id: "projects-real-time-data-streaming-amp-offline-ml-for-so-101-robotic-arms",
+          title: 'real-time data streaming &amp;amp; offline ML for SO-101 robotic arms',
+          description: "research intern for Dr. Venkatesan Muthukumar at the University of Nevada, Las Vegas (UNLV) from august to december 2025",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-comparative-topic-modeling-for-link-prediction",
-          title: 'comparative topic modeling for link prediction',
-          description: "a project with a background image and giscus comments",
+            },},{id: "projects-llm-feature-representation-amp-reasoning",
+          title: 'LLM feature representation &amp;amp; reasoning',
+          description: "current research assistant to Dr. Pakpoom Buabthong for mechanistic interpretation",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
+            },},{id: "projects-comparative-topic-modeling-for-academic-link-prediction",
+          title: 'comparative topic modeling for academic link prediction',
+          description: "how do different topic modeling techniques result in different visualizations and predictions of the academic landscape?",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/3_project/";
             },},{id: "projects-pathsense",
           title: 'pathsense',
-          description: "another without an image",
+          description: "navigational tool for visually impaired individuals using object-detection AI winning team for AIS Jump Hackathon 2024",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
             },},{id: "projects-crowdspec",
           title: 'crowdspec',
-          description: "a project with a background image",
+          description: "real-time event analysis for crowd flow, density, and demographics with no facial recognition",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
-            },},{id: "projects-coming-soon",
-          title: 'coming soon!',
-          description: "yet to be written",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
