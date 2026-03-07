@@ -9,10 +9,9 @@ profile:
   image: prof_pic.jpeg
   image_circular: true
   more_info: >
-    <p>swattan@cmkl.ac.th</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false # includes social icons at the bottom of the page
 
 announcements:
   enabled: false # includes a list of news items
@@ -22,11 +21,11 @@ announcements:
 projects:
   enabled: true
   scrollable: true
-  limit: 2
+  limit: 3
 
 latest_posts:
   enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+  scrollable: false # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 

@@ -3,7 +3,7 @@ layout: page
 title: pathsense
 description: another without an image
 img:
-importance: 3
+importance: 1
 category: industry
 ---
 
