@@ -6,7 +6,7 @@ description: cool things i've worked on
 nav: true
 nav_order: 3
 display_categories: [academic research, industry, misc]
-horizontal: false
+horizontal: true
 ---
 
 <!-- pages/projects.md -->
