@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 1
+title: real-time data streaming for SO-101 robotic arms
 description: with background image
 img: assets/img/12.jpg
 importance: 1
-category: work
+category: academic research
 related_publications: true
 ---
 

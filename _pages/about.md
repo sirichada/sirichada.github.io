@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: 3rd Year Computer Engineering Undegraduate @ CMKL University
+subtitle: <i>3rd Year Computer Engineering Undegraduate @ CMKL University</i>
 
 profile:
   align: right
@@ -32,4 +32,4 @@ latest_posts:
 
 Hi! I'm Sirichada (but you can call me Siri or Tingting for short) and I'm a junior at CMKL University, majoring in AI and Computer Engineering. I'm interested in researching how we can truly understand or explain the inner workings of AI, while ensuring the safety or ethics of these very same systems.
 
-When I'm not reading, I enjoy writing and keeping myself motivated through finding new cafes for the ultimate matcha latte to drink while researching.  I'm always looking for new opportunities to learn and grow, so feel free to reach out!
+When I'm not reading, I enjoy writing and keeping myself motivated through finding new cafes for the ultimate matcha latte to drink while researching. I'm always looking for new opportunities to learn and grow, so feel free to reach out!
