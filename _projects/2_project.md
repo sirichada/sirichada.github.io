@@ -3,7 +3,7 @@ layout: page
 title: comparative topic modeling for link prediction
 description: a project with a background image and giscus comments
 img: assets/img/3.jpg
-importance: 2
+importance: 1
 category: academic research
 giscus_comments: true
 ---

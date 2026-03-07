@@ -1,7 +1,7 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
+title: coming soon!
+description: yet to be written
 img:
 importance: 4
 category: misc
