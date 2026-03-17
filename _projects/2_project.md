@@ -17,7 +17,7 @@ Ongoing research, which has (so far) resulted in:
   - **goal:** investigate the behavior of memorization to generalization in a smaller transformer (2-layer) model
   - trained 2-layer transformer model with checkpoints every 2,000 steps
 - currently, exploring circuit tracing {% cite ameisen2025circuit %} and attribution graphs on [neuronpedia](https://github.com/decoderesearch/circuit-tracer)
-  - replicating poetry experiment {% cite lindsey2025biology} on gemma-2-2b
+  - replicating poetry experiment {% cite lindsey2025biology %} on gemma-2-2b
 
 <div class="row">
     <div class="col-sm">
