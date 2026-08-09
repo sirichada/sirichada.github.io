@@ -1,23 +1,14 @@
 cv:
   name: Sirichada Wattanasiritanawong
-  label: AI & Computer Engineering Student
+  headline: AI & Computer Engineering Student
   email: swattan@cmkl.ac.th
   location: Bangkok, Thailand
-  image: ""
-  summary: Undergraduate researcher in AI & Computer Engineering at CMKL University, focused on AI safety and LLM reasoning behavior.
 
   social_networks:
     - network: GitHub
       username: sirichada
     - network: LinkedIn
       username: sirichada-w-916518260
-
-  address:
-    street: ""
-    city: Bangkok
-    region: ""
-    postalCode: ""
-    countryCode: TH
 
   sections:
     Education:
@@ -45,7 +36,7 @@ cv:
         position: Research Assistant
         location: Bangkok, Thailand
         start_date: 2025-08
-        end_date: Present
+        end_date: present
         summary: Investigating "forward planning ahead" behavior of smaller LLMs through circuit tracing, supervised by Dr. Pakpoom Buabthong.
         highlights:
           - Replicated Anthropic's rhyming experiment across Gemma (270M, 1B, 4B) using circuit tracing and attribution analysis to identify behavioral differences in implicit reasoning capacity.
