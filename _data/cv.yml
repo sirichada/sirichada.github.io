@@ -14,13 +14,11 @@ cv:
     Education:
       - institution: CMKL University (Carnegie Mellon – KMITL)
         location: Bangkok, Thailand
-        url: ""
         area: AI & Computer Engineering (AiCE)
-        studyType: B.Eng.
+        studyType: Undergraduate Student
         start_date: 2023-08
         end_date: 2027-06
         score: "GPA: 3.9"
-        courses: ""
         highlights: []
 
       - institution: University of Nevada, Las Vegas
@@ -70,7 +68,7 @@ cv:
           - Built interactive Databricks dashboards using SQL and Python to track campaign metrics and customer engagement.
           - Automated data extraction from Thai demographic reports using Python (PyPDF2, pdfplumber).
 
-      - company: PathSense
+      - company: PathSense (Hackathon Team for AIS Jump Thailand Hackathon 2024)
         position: Project Coordinator & UX/UI Designer
         location: Bangkok, Thailand
         start_date: 2023-08
