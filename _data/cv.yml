@@ -1,189 +1,110 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Sirichada Wattanasiritanawong
+  label: AI & Computer Engineering Student
+  email: swattan@cmkl.ac.th
+  location: Bangkok, Thailand
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: Undergraduate researcher in AI & Computer Engineering at CMKL University, focused on AI safety and LLM reasoning behavior.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
+      username: sirichada
     - network: LinkedIn
-      username: example
+      username: sirichada-w-916518260
 
   address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+    street: ""
+    city: Bangkok
+    region: ""
+    postalCode: ""
+    countryCode: TH
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
-        highlights:
-          - Description 1.
-          - Description 2.
+      - institution: CMKL University (Carnegie Mellon – KMITL)
+        location: Bangkok, Thailand
+        url: ""
+        area: AI & Computer Engineering (AiCE)
+        studyType: B.Eng.
+        start_date: 2023-08
+        end_date: 2027-06
+        score: "GPA: 3.9"
+        courses: ""
+        highlights: []
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
+      - institution: University of Nevada, Las Vegas
+        location: Nevada, USA
+        area: College of Engineering International Program
+        studyType: Research Intern (Exchange)
+        start_date: 2025-08
+        end_date: 2025-12
+        highlights: []
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: CMKL University
+        position: Research Assistant
+        location: Bangkok, Thailand
+        start_date: 2025-08
+        end_date: Present
+        summary: Investigating "forward planning ahead" behavior of smaller LLMs through circuit tracing, supervised by Dr. Pakpoom Buabthong.
         highlights:
-          - Relativity
-          - Description 2.
+          - Replicated Anthropic's rhyming experiment across Gemma (270M, 1B, 4B) using circuit tracing and attribution analysis to identify behavioral differences in implicit reasoning capacity.
+          - Analyzing top feature activations in smaller models to distinguish mechanistic pathways underlying correct vs. incorrect rhyming structure.
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: University of Nevada, Las Vegas
+        position: Student Exchange Research Intern
+        location: Nevada, USA
+        start_date: 2025-08
+        end_date: 2025-12
+        summary: Investigated the impact of database architectures (MySQL, MongoDB, Redis) on real-time data streaming and ML performance for robotic motion prediction, supervised by Dr. Venki Muthukumar.
         highlights:
-          - Description 1.
-          - Description 2.
+          - Integrated relational and non-relational databases with a streaming ML pipeline, enabling real-time ingestion into a Keras LSTM model with TensorFlow backend.
+          - Built end-to-end data flow from LeRobot SO-101 and Atom S5 sensors through Kafka, Spark, and ML inference modules.
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+      - company: CMKL University
+        position: Undergraduate Researcher
+        location: Bangkok, Thailand
+        start_date: 2024-07
+        end_date: 2024-12
+        summary: Conducted systematic literature review of 700+ generative AI ethics papers to map research landscape and identify emerging themes, supervised by Asst. Prof. Justin Paulsen.
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - Compared topic modeling techniques (BERTopic, LDA, Top2Vec) to create clusters and visualize citation graph.
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+      - company: Advanced Info Services (AIS)
+        position: Data Analyst Intern
+        location: Bangkok, Thailand
+        start_date: 2025-06
+        end_date: 2025-07
+        highlights:
+          - Built interactive Databricks dashboards using SQL and Python to track campaign metrics and customer engagement.
+          - Automated data extraction from Thai demographic reports using Python (PyPDF2, pdfplumber).
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
-
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
-
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
-
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+      - company: PathSense
+        position: Project Coordinator & UX/UI Designer
+        location: Bangkok, Thailand
+        start_date: 2023-08
+        end_date: 2026-02
+        highlights:
+          - Developed an AI-powered obstacle detection device for visually impaired individuals; awarded first place at AIS Jump Thailand Hackathon 2024.
+          - Designed accessible user interface adhering to WCAG standards based on user interviews with visually impaired individuals.
 
     Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+      - name: ML/AI Frameworks
+        level: ""
+        icon: fa-solid fa-brain
+        keywords: "PyTorch, TensorFlow/Keras, scikit-learn, Hugging Face Transformers"
 
-    Languages:
-      - name: German
-        summary: "Native speaker"
+      - name: Interpretability Tools
+        level: ""
+        icon: fa-solid fa-magnifying-glass
+        keywords: "Logit Lens, Attribution Graph (Neuronpedia)"
 
-      - name: English
-        summary: "Fluent"
+      - name: Data Engineering
+        level: ""
+        icon: fa-solid fa-database
+        keywords: "Kafka, Spark, MySQL, MongoDB, Redis"
 
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: Programming Languages
+        level: ""
+        icon: fa-solid fa-code
+        keywords: "Python, SQL"
