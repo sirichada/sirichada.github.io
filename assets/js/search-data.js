@@ -16,14 +16,20 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "projects-real-time-data-streaming-amp-offline-ml-for-so-101-robotic-arms",
+        },{id: "news-completed-bluedot-impact-s-technical-ai-safety-course",
+          title: 'Completed BlueDot Impact’s Technical AI Safety course.',
+          description: "",
+          section: "News",},{id: "news-submitted-to-apart-research-s-secret-loyalties-hackathon-track-2-and-placed-in-the-top-half-of-179-submissions-project-page",
+          title: 'Submitted to Apart Research’s Secret Loyalties hackathon (Track 2), and placed in the...',
+          description: "",
+          section: "News",},{id: "projects-real-time-data-streaming-amp-offline-ml-for-so-101-robotic-arms",
           title: 'real-time data streaming &amp;amp; offline ML for SO-101 robotic arms',
           description: "research intern for Dr. Venkatesan Muthukumar at the University of Nevada, Las Vegas (UNLV) from august to december 2025",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-forward-planning-in-small-llms-via-circuit-tracing",
           title: 'forward planning in small LLMs via circuit tracing',
-          description: "does a model &quot;decide&quot; a rhyme before it writes it? — ongoing research with Dr. Pakpoom Buabthong, CMKL University",
+          description: "does a model &amp;quot;decide&amp;quot; a rhyme before it writes it? ongoing research with Dr. Pakpoom Buabthong, CMKL University",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
             },},{id: "projects-controls-that-catch-a-lying-instrument",
