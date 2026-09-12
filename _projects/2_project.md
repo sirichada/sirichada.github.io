@@ -1,29 +1,34 @@
 ---
 layout: page
-title: LLM feature representation & reasoning
-description: current research assistant to Dr. Pakpoom Buabthong for mechanistic interpretation
+title: forward planning in small LLMs via circuit tracing
+description: does a model "decide" a rhyme before it writes it? — ongoing research with Dr. Pakpoom Buabthong, CMKL University
 img: assets/img/grokking_demo.png
 importance: 1
 category: academic research
 related_publications: true
 ---
 
-> How is tabular data being represented in LLMs? Do LLMs actually understand these relations between the entities/concepts?
+Ongoing research assistantship with Dr. Pakpoom Buabthong, replicating and extending Anthropic's
+{% cite lindsey2025biology %} poetry-planning experiment across three sizes of Gemma-3 (270M, 1B,
+4B), using circuit tracing {% cite ameisen2025circuit %} and transcoder-based attribution graphs.
 
-Ongoing research, which has (so far) resulted in:
+**Question:** when a model generates the second line of a rhyming couplet, does it "decide" on the
+rhyme word before it starts writing it (a _planning_ feature), or only settle on it once it's
+already writing (an _execution_ feature)?
 
-- Literature reviews encoding tabular data methods, financial benchmarks, and sparse auto encoders (SAEs)
-- Demo in Grokking based on {% cite ye2025transformerslearnimplicitreasoning %}
-  - **goal:** investigate the behavior of memorization to generalization in a smaller transformer (2-layer) model
-  - trained 2-layer transformer model with checkpoints every 2,000 steps
-- currently, exploring circuit tracing {% cite ameisen2025circuit %} and attribution graphs on [neuronpedia](https://github.com/decoderesearch/circuit-tracer)
-  - replicating poetry experiment {% cite lindsey2025biology %} on gemma-2-2b
+**Method:**
+
+- Attribution graphs built for every generated token, across an 11-prompt set spanning easy-to-hard rhyme difficulty, for each of the three model sizes
+- Features classified as planning or execution based on when their influence peaks relative to the rhyme word
+- Causal interventions (suppressing individual features) measure which of those features actually matter for the model producing the correct rhyme, rather than merely correlating with it
+- Cross-model comparison regresses planning behavior against rhyme difficulty to see whether the effect holds, strengthens, or disappears at different model sizes
 
 <div class="row">
     <div class="col-sm">
-        {% include figure.liquid loading="eager" path="assets/img/grokking_demo.png" title="phase 1 pipeline" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/grokking_demo.png" title="memorization to generalization" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Results of accuracy across checkpoints between memorization to generalization, based on the Logic-LLM repository (https://github.com/teacherpeterpan/Logic-LLM). 
+    Earlier stage of the same line of work: accuracy across training checkpoints as a small
+    transformer shifts from memorization to generalization, based on the Logic-LLM repository.
 </div>
