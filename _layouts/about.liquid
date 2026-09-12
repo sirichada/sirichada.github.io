@@ -42,7 +42,7 @@ layout: default
 
     <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
-      <h2>
+      <h2 class="mt-5">
         <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
       </h2>
       {% include news.liquid limit=true %}
@@ -50,7 +50,7 @@ layout: default
 
     <!-- Latest posts -->
     {% if page.latest_posts and page.latest_posts.enabled %}
-      <h2>
+      <h2 class="mt-5">
         <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
       </h2>
       {% include latest_posts.liquid %}
@@ -58,7 +58,7 @@ layout: default
 
     <!-- Projects -->
     {% if page.projects and page.projects.enabled %}
-      <h2>
+      <h2 class="mt-5">
         <a href="{{ '/projects/' | relative_url }}" style="color: inherit">featured projects</a>
       </h2>
       <div class="projects">
@@ -76,7 +76,7 @@ layout: default
 
     <!-- Selected papers -->
     {% if page.selected_papers %}
-      <h2>
+      <h2 class="mt-5">
         <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
       </h2>
       {% include selected_papers.liquid %}
@@ -84,7 +84,7 @@ layout: default
 
     <!-- Social -->
     {% if page.social %}
-      <div class="social">
+      <div class="social mt-5">
         <div class="contact-icons">{% social_links %}</div>
 
         <div class="contact-note">{{ site.contact_note }}</div>

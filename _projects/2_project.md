@@ -1,7 +1,7 @@
 ---
 layout: page
 title: forward planning in small LLMs via circuit tracing
-description: does a model "decide" a rhyme before it writes it? — ongoing research with Dr. Pakpoom Buabthong, CMKL University
+description: does a model &quot;decide&quot; a rhyme before it writes it? ongoing research with Dr. Pakpoom Buabthong, CMKL University
 img: assets/img/grokking_demo.png
 importance: 1
 category: academic research
