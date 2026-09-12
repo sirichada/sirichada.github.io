@@ -21,14 +21,14 @@ ninja.data = [{
           description: "research intern for Dr. Venkatesan Muthukumar at the University of Nevada, Las Vegas (UNLV) from august to december 2025",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
-            },},{id: "projects-llm-feature-representation-amp-reasoning",
-          title: 'LLM feature representation &amp;amp; reasoning',
-          description: "current research assistant to Dr. Pakpoom Buabthong for mechanistic interpretation",
+            },},{id: "projects-forward-planning-in-small-llms-via-circuit-tracing",
+          title: 'forward planning in small LLMs via circuit tracing',
+          description: "does a model &quot;decide&quot; a rhyme before it writes it? — ongoing research with Dr. Pakpoom Buabthong, CMKL University",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-comparative-topic-modeling-for-academic-link-prediction",
-          title: 'comparative topic modeling for academic link prediction',
-          description: "how do different topic modeling techniques result in different visualizations and predictions of the academic landscape?",
+            },},{id: "projects-controls-that-catch-a-lying-instrument",
+          title: 'controls that catch a lying instrument',
+          description: "blind-auditing model organisms for hidden loyalties — Apart Research hackathon, Track 2 (Detection &amp; Auditing)",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
             },},{id: "projects-pathsense",
