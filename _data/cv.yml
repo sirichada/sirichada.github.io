@@ -18,7 +18,7 @@ cv:
         studyType: Undergraduate Student
         start_date: 2023-08
         end_date: 2027-06
-        score: "GPA: 3.9"
+        score: "GPA: 3.93"
         highlights: []
 
       - institution: University of Nevada, Las Vegas
@@ -38,7 +38,15 @@ cv:
         summary: Investigating "forward planning ahead" behavior of smaller LLMs through circuit tracing, supervised by Dr. Pakpoom Buabthong.
         highlights:
           - Replicated Anthropic's rhyming experiment across Gemma (270M, 1B, 4B) using circuit tracing and attribution analysis to identify behavioral differences in implicit reasoning capacity.
-          - Analyzing top feature activations in smaller models to distinguish mechanistic pathways underlying correct vs. incorrect rhyming structure.
+
+      - company: Cbility Technology (CrowdSpec)
+        position: COO & Co-Founder
+        location: Bangkok, Thailand
+        start_date: 2026-01
+        end_date: 2026-08
+        highlights:
+          - Designed and built a two-stage agentic outreach pipeline (Claude Code skills) for automated lead sourcing, contact verification, and bilingual (EN/TH) email drafting, scaling outreach to 50 emails/week across two market verticals.
+          - Produced client-facing reports and led UI design for the company dashboard and website.
 
       - company: University of Nevada, Las Vegas
         position: Student Exchange Research Intern
@@ -87,6 +95,11 @@ cv:
         level: ""
         icon: fa-solid fa-magnifying-glass
         keywords: "Logit Lens, Attribution Graph (Neuronpedia)"
+
+      - name: AI Tooling
+        level: ""
+        icon: fa-solid fa-robot
+        keywords: "Claude Code (custom agent skill development)"
 
       - name: Data Engineering
         level: ""
