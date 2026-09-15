@@ -16,6 +16,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
+        },{id: "nav-cv",
+          title: "CV",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
+          },
         },{id: "news-completed-bluedot-impact-s-technical-ai-safety-course",
           title: 'Completed BlueDot Impact’s Technical AI Safety course.',
           description: "",
@@ -47,6 +54,11 @@ ninja.data = [{
           description: "real-time event analysis for crowd flow, density, and demographics with no facial recognition",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
+            },},{id: "projects-sae-steering-asymmetry",
+          title: 'SAE steering asymmetry',
+          description: "does suppressing an SAE feature behave asymmetrically to amplifying it? reproduction and extension of Arad, Mueller &amp; Belinkov (2025)",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/6_project/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
