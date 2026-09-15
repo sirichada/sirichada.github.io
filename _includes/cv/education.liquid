@@ -28,7 +28,7 @@
               {% assign startDate = start_date %}
             {% endif %}
 
-            {% if end_date == '' or end_date == nil or end_date == 'present' %}
+            {% if end_date == '' or end_date == null or end_date == 'present' %}
               {% assign endDate = 'Present' %}
             {% else %}
               {% assign end_parts = end_date | split: '-' %}
