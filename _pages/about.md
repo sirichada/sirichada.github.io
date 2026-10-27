@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <i>Senior Computer Engineering Undergraduate @ CMKL University</i>
+subtitle: <i>Computer Engineering Undergraduate @ CMKL University</i>
 
 profile:
   align: right
@@ -29,7 +29,7 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi! I'm Sirichada (but you can call me Siri or Tingting for short), a senior at CMKL University majoring in AI and Computer Engineering. My research is in mechanistic interpretability and AI safety: understanding what's actually happening inside language models to make them more alignable and controllable.
+Hi! I'm Sirichada (but you can call me Siri or Tingting for short), an undergraduate at CMKL University majoring in AI and Computer Engineering. My research is in mechanistic interpretability and AI safety: understanding what's actually happening inside language models to make them more alignable and controllable.
 
 Outside of research, I enjoy writing and hunting down good matcha lattes. Always looking for new collaborations or opportunities to learn — feel free to reach out!
 <br>
